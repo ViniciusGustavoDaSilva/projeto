@@ -1,0 +1,213 @@
+<html>
+<head>
+
+<title>Aula 04</title>
+</head>
+
+<body bgcolor="#F5DEB3">
+
+<form action="enviado2.html">
+<marquee>
+<font color="#1C1C1C" face=Arial size=10><center><b>Formulário de Turmas</font></center></b>
+</marquee>
+<br/><br/>
+
+<font color="#696969" face=Arial size=5><b>Opções de Cursos:</font></b>
+<details>
+
+<summary><font face=Arial>Cursos Técnicos</summary></font>
+<font  size=2 color="#696969" face=Arial size=3>Desenvolvimento de Sistemas</font>
+<br/>
+<font  size=2 color="#696969" face=Arial size=3>Eletroeletrônica</font>
+<br/>
+<font  size=2 color="#696969" face=Arial size=3>Mídias e Redes</font>
+
+</details>
+
+<details>
+
+<summary><font face=Arial>Cursos Livres</summary></font>
+ <font  size=2 color="#696969" face=Arial size=3>Microsoft</font>
+<br/>
+ <font  size=2 color="#696969" face=Arial size=3>Google</font>
+<br/>
+ <font  size=2 color="#696969" face=Arial size=3>Amazon</font>
+<br/>
+ <font  size=2 color="#696969" face=Arial size=3>Cisco</font>
+
+</details>
+
+<br/><br/>
+
+<font color="#696969" face=Arial size=4><b>Nivel de conhecimento em tecnologia: </font></b>
+
+
+ <font color="black" face=Arial size=3><b>Pouco conhecimento: </font></b>
+
+   <input type="range" name"conhecimento" min"0" max"100">
+
+
+     <font color="black" face=Arial size=3><b>Muito conhecimento: </font></b>
+
+<br/><br/>
+
+
+<font color="#696969" face=Arial size=3><b>Evolução do 2º semestre: </font></b>
+
+ <meter id="barra_progresso" value="70" min="0" max="100"></meter>
+
+<br/><br/>
+
+<font color="#696969" face=Arial size=4><b>Cor sugerida de uniforme: </font></b>
+
+ <input type="color" id="uniforme_cor" name="uniforme_cor">
+
+<br/><br/>
+
+ <font color="#696969" face=Arial size=4><b>Início do 2º Semestre: </font></b>
+
+  <Input type="month" name="mes_ano">
+
+    <font color="#696969" face=Arial size=4><b>Fim do 2º Semestre: </font></b>
+
+      <Input type="month" name="mes_ano">
+
+<br/><br/>
+
+<font color="#696969" face=Arial size=4><b>Procura avançada no site: </font></b>
+<input type="search" name="busca">
+ <br/><br/>
+  <font color="#696969" face=Arial size=4><b>Horário de Atendimento: </font></b>
+   <font color="black" face=Arial size=4><b>Das: </font></b>
+    <input type="time" name"horario">
+     <font color="black" face=Arial size=4><b>Até: </font></b>
+      <input type="time" name"horario">
+<br/><br/>
+
+
+<details>
+ <summary><font face=Arial>Minha Playlist </summary></font>
+<ol>  
+<li><font  size=2 color="#696969" face=Arial size=3>Creep/Radiohead</font></li>
+<br/>
+<audio controls src="Creep.mp3" type="audio/mp3" ></audio>
+<br/>
+<br/>
+<font color="black" size="3">Deixe sua opinião...</font>
+<br/>
+<br/>
+
+<font color="black" face=Arial size=3><b>Não Gostei: </font></b>
+
+   <input type="range" name"Gostouounao" min"0" max"100">
+
+
+     <font color="black" face=Arial size=3><b>Gostei: </font></b>
+
+<br/>
+<br/>
+ <li><font  size=2 color="#696969" face=Arial size=3>Doomsday</font></li>
+<br/>
+<audio controls src="Doomsday.mp3" type="audio/mp3" ></audio>
+<br/>
+<br/>
+<font color="black" size="3">Deixe sua opinião...</font>
+<br/>
+<br/>
+
+<font color="black" face=Arial size=3><b>Não Gostei: </font></b>
+
+   <input type="range" name"Gostouounao" min"0" max"100">
+
+
+     <font color="black" face=Arial size=3><b>Gostei: </font></b>
+
+<br/>
+<br/>
+ <li><font  size=2 color="#696969" face=Arial size=3>AUTOMOTIVO TURBULÊNCIA</font></li>
+<br/>
+<audio controls src="automotivo.mp3" type="audio/mp3" ></audio>
+<br/>
+<br/>
+<font color="black" size="3">Deixe sua opinião...</font>
+<br/>
+<br/>
+
+<font color="black" face=Arial size=3><b>Não Gostei: </font></b>
+
+   <input type="range" name"Gostouounao" min"0" max"100">
+
+
+     <font color="black" face=Arial size=3><b>Gostei: </font></b>
+<br/>
+<br/>
+ <li><font  size=2 color="#696969" face=Arial size=3>Garota de Ipanema</font></li>
+<br/>
+<audio controls src="garota.mp3" type="audio/mp3" ></audio>
+<br/>
+<br/>
+<font color="black" size="3">Deixe sua opinião...</font>
+<br/>
+<br/>
+
+<font color="black" face=Arial size=3><b>Não Gostei: </font></b>
+
+   <input type="range" name"Gostouounao" min"0" max"100">
+
+
+     <font color="black" face=Arial size=3><b>Gostei: </font></b>
+<br/>
+<br/>
+</ol>
+</details>
+
+
+<details>
+ <summary><font face=Arial>Minha Clips </summary></font>
+<ul>  
+<li><font  size=2 color="#696969" face=Arial size=3>Neymar?</font></li>
+<br/>
+<video widht="400" height="200" controls src="videoplayback.mp4" type="video/mp4" ></video>
+<br/>
+<br/>
+<font color="black" size="3">Deixe sua opinião...</font>
+<br/>
+<br/>
+
+<font color="black" face=Arial size=3><b>Não Gostei do video: </font></b>
+
+   <input type="range" name"Gostouounao" min"0" max"100">
+
+
+     <font color="black" face=Arial size=3><b>Gostei do video: </font></b>
+<br/>
+</ul>
+</details>
+<marquee direction="right"><font color="black" face=Arial size=3>Site feito por: Vini Do Monza</marquee></font>
+<marquee behavior="alternate"><font color="black" face=Arial size=3>Pimdamonhagaba</marquee></font>
+<br/>
+<fieldset>
+<legend>Selecione uma das opções</legend>
+<font color=black size=3>Como chegou nesse site?</font>
+<br/>
+<input type="radio" name="feedback"><font color=black size=3>Indicação</font>
+<input type="radio" name="feedback"><font color=black size=3>Facebook</font>
+<input type="radio" name="feedback"><font color=black size=3>Instagram</font>
+<input type="radio" name="feedback"><font color=black size=3>Outro</font>
+<br/>
+<font color=black size=3> Se outro, qual?</font>
+<input type="text" name="outro_feedback" placeholder="Insira aqui...">
+</fieldset>
+<br/>
+<textarea widht="200" height="100">Adoro sugestões! Deixe uma aqui...
+</textarea>
+<br/>
+<br/>
+<br/>
+<button type="submit">Enviar</button>
+<br/>
+</form>
+<a href="Aulas.html"><button>Voltar</button></a>
+
+</body>
+</html>

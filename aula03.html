@@ -1,0 +1,146 @@
+<html>
+<head>
+
+       <title>Aula 03
+      
+     </title>
+</head>
+
+<body>
+
+       <center><font face=Arial size=10 color=Yellow>Formulário de Contato</font>
+     
+
+       </center>
+
+       <center><font face=Arial size=3 color=Black>Insira suas informações para contato</font>
+     
+       </center>
+<br/>
+
+       <form action="formulario_contato.php" method="post">
+       <lable for="nome">Nome:
+
+</lable>
+
+       <input type="text" id="nome" name="nome" placeholder="Insira o seu nome..." required>
+
+<br/><br/>
+
+	<lable for="email">Email:
+
+</lable>
+
+	<input type="text" id="email" name="email" placeholder="Insira o seu email..." required>
+
+<br/><br/>
+
+	<lable for="telefone">Tel:
+
+</lable>
+
+	<input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+
+	<lable for="celular">Celular:
+
+</lable>
+	
+	<input type="tel" id="celular" name="celular" placeholder="(xx) xxxxx-xxxx">
+
+<br/><br/>
+
+<lable for="genero">Gênero:
+
+</lable>
+
+<select name="select_genero">
+<option value="option_genero">Escolha seu gênero...  </option>
+ <option value="option_genero">Feminino </option>
+  <option value="option_genero">Masculino </option>
+   <option value="option_genero">Outro </option>
+
+</select>
+
+<br/><br/>
+
+<lable for="data_nascimento">Data de nascimento:
+
+         <input type="date" id="data_nascimento" name="data_nascimento">
+
+</lable>
+
+<lable for="idade">Idade:
+
+         <input type="number" id="idade" name="idade" min=0 >
+
+
+</lable>
+
+
+
+<br/><br/>
+
+	<lable for="idioma">Escolha o idioma que possui maior fluência:
+
+</lable>
+
+<br/><br/>
+
+
+
+	<input type="radio" id="idioma" name="idioma" value="ingles">Inglês
+
+ 	<input type="radio" id="idioma" name="idioma" value="portuguesbr">Português-BR
+
+  	<input type="radio" id="idioma" name="idioma" value="espanhol">Espanhol
+
+  	 <input type="radio" id="idioma" name="idioma" value="nenhum">Nenhum
+
+   	 <input type="radio" id="outroidioma" me="outroidioma" value="outro">Outro
+
+<br/><br/>
+
+	<lable for="outroidioma">Outro idioma é:
+
+	<input type="text" id="outroidioma" me="outroidioma" placeholder="Insira o outro idioma...">
+
+</lable>
+
+<br/><br/>
+
+
+<lable for="arquivo">Insira seu currículo:
+
+<br/><br/>
+
+	<input type="file" id="arquivo" nome="arquivo">
+
+</lable>
+
+<br/><br/>
+
+ 	<input type="checkbox" id="termo_uso" name="termo_uso" >
+	<lable for="termo_uso">Aceito o termo de uso!
+
+</lable>
+
+<br/><br/>
+
+<lable for="leitura">Leia os termos de uso:
+
+
+</lable>
+
+       
+</form>
+
+<a href="termo.html"><button>Leia nossos termos</button></a>
+
+<br/><br/>
+
+
+<a href="enviado.html"><button><font color=red>Enviar</button></a></font>
+<a href="Aulas.html"><button>Voltar</button></a>
+
+</body>
+</html>
